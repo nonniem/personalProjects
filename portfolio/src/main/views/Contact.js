@@ -69,14 +69,13 @@ function Contact(props){
                  I grew up in Appleton, Wisconsin I have recently relocated from Salt Lake City,
                  Utah where I excelled as a recent graduate of a Coding Bootcamp.
                   I have mastered developing web applications such as front-end user
-                   interface, database management, liaising with customers
-                   and internal team and assisting with help desk tickets.
-                   I have the required skills outlined in the job description.
+                   interface and design, database management, working with customers
+                   and other team memebers to deliver a great product.
                     I have advanced proficiencies in HTML, CSS, JavaScript and
                     excellent customer service skills. I also have a solid foundation
-                    in MongoDB, Express, React, and Node.JS.
-                     In addition to four years work experience,
-                     I hold a Certificate of proficiency for Full Stack Website Development.
+                    with MongoDB, Express, Node.JS, React and Wordpress.
+                     In addition to six years work experience,
+                     I hold a Certificate of Proficiency for Full-Stack Javascript Development.
                 </span>
             </div>
 

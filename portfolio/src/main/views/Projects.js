@@ -39,38 +39,38 @@ function Projects(){
 
             <div className="style">
                 <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
-                <img style={imageContainer} src={Cjmchiro} alt=""/>
+                <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
             </div>
 
             <div className="style">
                 <a style={hrefLink} href="https://chatterin.herokuapp.com">Chatter</a>
-                <img style={imageContainer} src={Chatter} alt=""/>
+                <a href="https://chatterin.herokuapp.com"><img style={imageContainer} src={Chatter} alt=""/></a>
             </div>
 
 
             <div className="style">
                 <a style={hrefLink} href="https://flowarts.herokuapp.com/">Flowarts</a>
-                <img style={imageContainer} src={Flowarts} alt="flowarts"/>
+                <a href="https://flowarts.herokuapp.com/"><img style={imageContainer} src={Flowarts} alt="flowarts"/></a>
             </div>
 
             <div className="style">
                 <a style={hrefLink} href="http://nonniestodolist.surge.sh">Todo List</a>
-                <img style={imageContainer} src={TodoList} alt=""/>
+                <a href="http://nonniestodolist.surge.sh"><img style={imageContainer} src={TodoList} alt=""/></a>
             </div>
 
             <div className="style">
                 <a style={hrefLink} href="http://nonniesmemese.surge.sh">Memes</a>
-                <img style={imageContainer} src={Meme} alt=""/>
+                <a href="http://nonniesmemese.surge.sh"><img style={imageContainer} src={Meme} alt=""/></a>
             </div>
 
             <div className="style">
                 <a style={hrefLink} href="http://nonniestopwatch.surge.sh">Stopwatch</a>
-                <img style={imageContainer} src={Stopwatch} alt=""/>
+                <a href="http://nonniestopwatch.surge.sh"><img style={imageContainer} src={Stopwatch} alt=""/></a>
             </div>
 
             <div className="style">
                 <a style={hrefLink} href="http://nonniemarion.surge.sh">Mario Calculator</a>
-                <img style={imageContainer} src={Mario} alt="Meme Making website"/>
+                <a href="http://nonniemarion.surge.sh"><img style={imageContainer} src={Mario} alt="Meme Making website"/></a>
             </div>
 
         </div>

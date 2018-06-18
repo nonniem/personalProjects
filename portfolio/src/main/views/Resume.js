@@ -1,12 +1,12 @@
 import React from "react";
-import ResumeImg from "./images/Resume.png";
+import ResumeImg from "./images/Resume.png/";
 
 
 export default function Resume(){
     const resumeImgStyle = {
         maxWidth: "100%",
         margin: "auto" ,
-        display: "block",
+        display: "block"
         marginTop: "10px",
         marginBottom: "10px"
     }
