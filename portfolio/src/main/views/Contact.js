@@ -23,8 +23,8 @@ function Contact(props){
     }
 
     const contactMethods = {
-        height: "50px",
-        width: "275px",
+        // height: "50px",
+        maxWidth: "350px",
         background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         color: "snow",
         position: "relative",
@@ -62,16 +62,22 @@ function Contact(props){
 
     <div>
         <div>
-            <h2 style={titleStyle}>Basically my life story</h2>
+            <h2 style={titleStyle}>Personal Biography</h2>
             <div style={personalBio}>
-                <span style={indentd}>Hello, welcome to my portfolio. My name is Nonnie. I grew up in Appleton, Wisconsin
-                and moved to Utah four years ago. <br/>I love to snowboard and be outside,
-                but i spend most of my time inside writing code. I have experience with React,
-                JS6, NodeJs, MongoDb, and CS3. I enjoy designing websites and planning
-                a users experience while visiting my website. I have a passion
-                to do things differently and want to make something my own.
-                Currently diving into
-                the coding world headfirst... no lifevest. Thank you for visiting.</span>
+                <span style={indentd}>
+                Hello, welcome to my digital portfolio. My name is Nonnie Martin.
+                 I grew up in Appleton, Wisconsin I have recently relocated from Salt Lake City,
+                 Utah where I excelled as a recent graduate of a Coding Bootcamp.
+                  I have mastered developing web applications such as front-end user
+                   interface, database management, liaising with customers
+                   and internal team and assisting with help desk tickets.
+                   I have the required skills outlined in the job description.
+                    I have advanced proficiencies in HTML, CSS, JavaScript and
+                    excellent customer service skills. I also have a solid foundation
+                    in MongoDB, Express, React, and Node.JS.
+                     In addition to four years work experience,
+                     I hold a Certificate of proficiency for Full Stack Website Development.
+                </span>
             </div>
 
         </div>

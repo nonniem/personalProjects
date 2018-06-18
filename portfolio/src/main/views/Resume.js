@@ -13,7 +13,7 @@ export default function Resume(){
 
     return(
         <div>
-            <a href="https://docs.google.com/document/d/1uvunutUBZ7CB1YgsosD7kFU5Gs7MTMbtDNXX4Qk4F-c/edit">
+            <a href="https://drive.google.com/file/d/1UAiYFfPcUeu1EpRtJaOeWW9wBUoGyMIz/view?usp=sharing">
                 <img style={resumeImgStyle} src={ResumeImg} alt="resume"/>
             </a>
         </div>

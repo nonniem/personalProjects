@@ -5,6 +5,7 @@
 
 .nav {
     margin:auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-top: 13px;
@@ -82,8 +83,6 @@
     min-height: 100vh;
 }
 
-
-
 .style {
         padding: 10px;
         align-content: center;
@@ -139,7 +138,6 @@ a:focus{
     .style {
         margin-right: 10%;
         margin-left: 15%;
-        max-width: 70%
-
+        max-width: 70%;
     }
 }

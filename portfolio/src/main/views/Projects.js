@@ -5,6 +5,7 @@ import Mario from "./images/mario.png";
 import TodoList from "./images/todolist.png";
 import Stopwatch from "./images/stopwatch.png";
 import Chatter from "./images/chatter.png";
+import Cjmchiro from "./images/cjmchiro.png";
 
 
 function Projects(){
@@ -35,6 +36,11 @@ function Projects(){
     return(
 
         <div style={styles}>
+
+            <div className="style">
+                <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
+                <img style={imageContainer} src={Cjmchiro} alt=""/>
+            </div>
 
             <div className="style">
                 <a style={hrefLink} href="https://chatterin.herokuapp.com">Chatter</a>
