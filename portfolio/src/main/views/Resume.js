@@ -7,7 +7,6 @@ export default function Resume(){
     const resumeImgStyle = {
         maxWidth: "1150px",
         margin: "auto" ,
-        display: "inline-block",
         marginTop: "10px",
         marginBottom: "10px",
         minWidth: "240px",
