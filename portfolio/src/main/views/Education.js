@@ -19,7 +19,6 @@ import appletonnorthImg from "./icons/appletonnorth.png";
 export default function Education(){
     const divStyle = {
         color: "black",
-        background: "rgba(0, 0, 0, 0.5)",
         width: "80%",
         margin: "auto",
         padding: "10px"
@@ -27,13 +26,7 @@ export default function Education(){
 
     const infoStyle = {
         textAlign: "center",
-        background: "rgba(255,255,255, 0.8)",
-        margin: "10px"
-    }
-
-    const infoStyle2 = {
-        textAlign: "center",
-        background: "rgba(255,255,255, 0.8)",
+        background: "rgba(255,255,255, 0.5)",
         margin: "10px"
     }
 
@@ -101,7 +94,7 @@ export default function Education(){
                 <h6>Only attended one semester</h6>
                 <li>Ethics, Anthropology, Psychology, English</li>
             </div>
-            <div style={infoStyle2}>
+            <div style={infoStyle}>
                 <img style={aNorth} src={appletonnorthImg} alt=""/>
                 <h3>Appleton North Highschool</h3>
                     <li>Appleton North Career Academy</li>

@@ -23,14 +23,15 @@ function Projects(){
         maxWidth: "80%",
         maxHeight: "500px",
         float: "right",
-        border: "1px black solid"
+        border: "1px black solid",
+        minHeight: "205.5px"
     }
 
     const hrefLink = {
         fontSize: "1.5em",
         color: "snow",
         letterSpacing: "1px",
-        textShadow: "-1px 0 black, 0 1px black, 0 0 black, 0 0 black",
+        textShadow: "-1px 0 black, 0 1px black, 0 0 black, 0 0 black"
     }
 
     return(

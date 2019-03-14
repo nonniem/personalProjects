@@ -2,19 +2,14 @@
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
 }
 
-
 .nav {
     margin:auto;
-    width: 90%;
+    font-size: 12px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     margin-top: 13px;
     padding: 15px;
-    background: -moz-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
-    background: -webkit-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
-    background: -o-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
-    background: -ms-linear-gradient(25deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
-    background: linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%);
     text-shadow:
     .5px .5px 0 #456,
     -.5px .5px 0 #456,
@@ -79,29 +74,27 @@
     background-size: cover;
     background-position: center;
     min-width: 200px;
-    background-image: url("./wallup.jpeg");
+    background-image: url("./textured.jpg");
     min-height: 100vh;
 }
 
 .style {
-        padding: 10px;
+        padding: 10px; padding-left: 4vw;
         align-content: center;
         letter-spacing: .01em;
         display: inline-block;
         margin: 10px 15px auto;
-        width: 90%;
+        width: 90%; min-width: 240px;
         border: black 1px solid;
         background: rgba(0, 0, 0, 0.5);
         color: white;
         top: 10%;
-        min-width: 240px;
         border-radius: 5px;
-
     }
 
 .navbarLink{
     color: white;
-    font-size: 1.5em;
+    font-size: 3vw;
     font-family: 'Lobster', Georgia, Times, serif;
 }
 
@@ -134,10 +127,8 @@ a:focus{
     color: snow;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 625px){
     .style {
-        margin-right: 10%;
-        margin-left: 15%;
-        max-width: 70%;
+        max-width: 45%;
     }
 }
