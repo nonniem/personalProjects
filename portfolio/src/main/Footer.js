@@ -5,6 +5,7 @@ function Footer(props){
         color: "white",
         height: "8vh",
         background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
+        opacity: ".65",
         position: "relative",
         zIndex: "1"
     }
