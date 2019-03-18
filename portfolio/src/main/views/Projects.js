@@ -6,6 +6,8 @@ import TodoList from "./images/todolist.png";
 import Stopwatch from "./images/stopwatch.png";
 import Chatter from "./images/chatter.png";
 import Cjmchiro from "./images/cjmchiro.png";
+import Nestwi from "./images/nestwi.png";
+
 
 
 function Projects(){
@@ -39,8 +41,8 @@ function Projects(){
         <div style={styles}>
 
             <div className="style">
-                <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
-                <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
+                <a style={hrefLink} href="http://nestwi.org/">N.E.S.T</a>
+                <a href="http://nestwi.org/"><img style={imageContainer} src={Nestwi} alt=""/></a>
             </div>
 
             <div className="style">
@@ -48,6 +50,10 @@ function Projects(){
                 <a href="https://chatterin.herokuapp.com"><img style={imageContainer} src={Chatter} alt=""/></a>
             </div>
 
+            <div className="style">
+                <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
+                <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
+            </div>
 
             <div className="style">
                 <a style={hrefLink} href="https://flowarts.herokuapp.com/">Flowarts</a>

@@ -6,7 +6,7 @@ function Contact(props){
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
-        fontSize: "1.2em",
+        fontSize: "1.5em",
         textAlign: "center",
         letterSpacing: "1.3px",
         wordSpacing: "1px",
@@ -20,7 +20,8 @@ function Contact(props){
         borderRadius: "15%",
         borderTop: "snow 1px solid",
         borderBottom: "snow 1px solid",
-        maxWidth: "600px"
+        maxWidth: "600px",
+        fontFamily: "'Lobster', Georgia, Times, serif"
     }
 
     const contactMethods = {
@@ -34,7 +35,8 @@ function Contact(props){
         borderLeft: "solid white 1px",
         letterSpacing: "1.3px",
         wordSpacing: "1px",
-        padding: "5px"
+        padding: "5px",
+        fontFamily: "'Lato', sans-serif"
     }
 
     const personalBio = {
@@ -55,6 +57,7 @@ function Contact(props){
         wordSpacing: "1px",
         maxWidth: "666px",
         borderRadius: "2%",
+        fontFamily: "'Lato', sans-serif"
     }
 
     const indentd = {
@@ -68,17 +71,15 @@ function Contact(props){
             <h2 style={titleStyle}>Personal Biography</h2>
             <div style={personalBio}>
                 <span style={indentd}>
-                Hello, welcome to my digital portfolio. My name is Nonnie Martin.
-                 I grew up in Appleton, Wisconsin I have recently relocated from Salt Lake City,
-                 Utah where I excelled as a recent graduate of a Coding Bootcamp.
-                  I have mastered developing web applications such as front-end user
-                   interface and design, database management, working with customers
-                   and other team memebers to deliver a great product.
-                    I have advanced proficiencies in HTML, CSS, JavaScript and
-                    excellent customer service skills. I also have a solid foundation
-                    with MongoDB, Express, Node.JS, React and Wordpress.
-                     In addition to six years work experience,
-                     I hold a Certificate of Proficiency for Full-Stack Javascript Development.
+
+                Welcome to my portfolio, my name is Nonnie Martin and I'm a Full-Stack JavaScript Developer
+                and E-commerce Management specialist. Graduating from V-Schools coding academy,
+                and the frontier of new development technologies. I want to build you a faster
+                and more efficient website for you and your team. With advanced skills in building
+                full stack websites to simple WordPress sites that you could even manage yourself.
+                If your interested in working with me please contact through email.
+
+
                 </span>
             </div>
 
