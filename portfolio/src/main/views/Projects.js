@@ -1,12 +1,13 @@
 import React from "react";
-import Meme from "./images/meme.png";
 import Flowarts from "./images/flowarts.png";
-import Mario from "./images/mario.png";
 import TodoList from "./images/todolist.png";
-import Stopwatch from "./images/stopwatch.png";
 import Chatter from "./images/chatter.png";
 import Cjmchiro from "./images/cjmchiro.png";
 import Nestwi from "./images/nestwi.png";
+import Surfinbird from "./images/surfinbird.png";
+import Dpfguys from "./images/dpfguys.png";
+import Rossvanhandel from "./images/rossvanhandel.png";
+import Fantasydreamhomes from "./images/fantasydreamhomes.png";
 
 
 
@@ -41,6 +42,31 @@ function Projects(){
         <div style={styles}>
 
             <div className="style">
+              <a style={hrefLink} href="http://dpfguys.com/">DPF Guys</a>
+              <a href="http://dpfguys.com/"><img style={imageContainer} src={Dpfguys} alt=""/></a>
+            </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
+              <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
+            </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://fantasydreamhomes.com/">Fantasy Dream Homes</a>
+              <a href="http://fantasydreamhomes.com/"><img style={imageContainer} src={Fantasydreamhomes} alt=""/></a>
+            </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://rossvanhandel.insure/">Ross VanHandel Insurance</a>
+              <a href="http://rossvanhandel.insure/"><img style={imageContainer} src={Rossvanhandel} alt=""/></a>
+            </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://surfinbirdskateshop.com/">Surfin Bird Skateshop</a>
+              <a href="http://surfinbirdskateshop.com/"><img style={imageContainer} src={Surfinbird} alt=""/></a>
+            </div>
+
+            <div className="style">
                 <a style={hrefLink} href="http://nestwi.org/">N.E.S.T</a>
                 <a href="http://nestwi.org/"><img style={imageContainer} src={Nestwi} alt=""/></a>
             </div>
@@ -51,11 +77,6 @@ function Projects(){
             </div>
 
             <div className="style">
-                <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
-                <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
-            </div>
-
-            <div className="style">
                 <a style={hrefLink} href="https://flowarts.herokuapp.com/">Flowarts</a>
                 <a href="https://flowarts.herokuapp.com/"><img style={imageContainer} src={Flowarts} alt="flowarts"/></a>
             </div>
@@ -63,21 +84,6 @@ function Projects(){
             <div className="style">
                 <a style={hrefLink} href="http://nonniestodolist.surge.sh">Todo List</a>
                 <a href="http://nonniestodolist.surge.sh"><img style={imageContainer} src={TodoList} alt=""/></a>
-            </div>
-
-            <div className="style">
-                <a style={hrefLink} href="http://nonniesmemese.surge.sh">Memes</a>
-                <a href="http://nonniesmemese.surge.sh"><img style={imageContainer} src={Meme} alt=""/></a>
-            </div>
-
-            <div className="style">
-                <a style={hrefLink} href="http://nonniestopwatch.surge.sh">Stopwatch</a>
-                <a href="http://nonniestopwatch.surge.sh"><img style={imageContainer} src={Stopwatch} alt=""/></a>
-            </div>
-
-            <div className="style">
-                <a style={hrefLink} href="http://nonniemarion.surge.sh">Mario Calculator</a>
-                <a href="http://nonniemarion.surge.sh"><img style={imageContainer} src={Mario} alt="Meme Making website"/></a>
             </div>
 
         </div>

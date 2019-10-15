@@ -75,12 +75,18 @@ function Contact(props){
             <div style={personalBio}>
                 <span style={indentd}>
 
-                Welcome to my portfolio, my name is Nonnie Martin and I'm a Full-Stack JavaScript Developer
-                and E-commerce Management specialist. Graduating from V-Schools coding academy,
-                and the frontier of new development technologies. I want to build you a faster
-                and more efficient website for you and your team. With advanced skills in building
-                full stack websites to simple WordPress sites that you could even manage yourself.
-                If your interested in working with me please contact through email.
+                Welcome to my portfolio - my name is Nonnie Martin,
+                and I'm a Full-Stack JavaScript Developer and
+                 E-commerce Management Specialist. I graduated
+                  from V-Schools Coding Academy which taught me
+                  the frontier of new development technologies.
+                  I want to build you a faster and more efficient
+                   website for your team or your business.
+                   My skills include a range from building
+                   full stack websites with multiple features
+                   to simple WordPress sites that you could
+                   even manage yourself. If you’re interested
+                    in working with me please contact me through email. Thank you!
 
 
                 </span>

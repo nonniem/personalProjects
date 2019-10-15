@@ -1,6 +1,5 @@
 import React from "react";
 import ResumeImg from "./images/Resume.png";
-import ResumeImg1 from "./images/Resume1.png";
 
 
 export default function Resume(){
@@ -31,13 +30,10 @@ export default function Resume(){
 
     return(
         <div style={resumeDiv}>
-            <a href="https://drive.google.com/file/d/1UAiYFfPcUeu1EpRtJaOeWW9wBUoGyMIz/view?usp=sharing">
+            <a href="https://docs.google.com/document/d/1ufqMJC3akQEYZ7W3wQowUsxaQFpfJDjF5OeJ__Cr1uM/edit?usp=sharing">
                 <img style={resumeImgStyle} src={ResumeImg} alt="resume"/>
             </a>
-            <a href="https://drive.google.com/file/d/1UAiYFfPcUeu1EpRtJaOeWW9wBUoGyMIz/view?usp=sharing">
-                <img style={resumeImgStyle} src={ResumeImg1} alt="resume"/>
-            </a>
-          </div>
+        </div>
 
     )
 }
