@@ -10,6 +10,7 @@ function Navbar(props){
                     <Link to="/" className="navbarLink">Bio</Link>
                     <Link to="/resume" className="navbarLink">Resume</Link>
                     <Link to="/education" className="navbarLink">Education</Link>
+                    <Link to="/interests" className="navbarLink">Interests</Link>
                 </div>
             </div>
         </div>

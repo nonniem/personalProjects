@@ -8,6 +8,7 @@ import Surfinbird from "./images/surfinbird.png";
 import Dpfguys from "./images/dpfguys.png";
 import Rossvanhandel from "./images/rossvanhandel.png";
 import Fantasydreamhomes from "./images/fantasydreamhomes.png";
+import Agscbddispensary from "./images/agscbddispensary.png";
 
 
 
@@ -44,6 +45,11 @@ function Projects(){
             <div className="style">
               <a style={hrefLink} href="http://dpfguys.com/">DPF Guys</a>
               <a href="http://dpfguys.com/"><img style={imageContainer} src={Dpfguys} alt=""/></a>
+            </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://agscbddispensary.com/">A&Gs CBD Dispensary</a>
+              <a href="http://agscbddispensary.com/"><img style={imageContainer} src={Agscbddispensary} alt=""/></a>
             </div>
 
             <div className="style">
