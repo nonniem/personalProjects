@@ -21,7 +21,8 @@ export default function Education(){
         color: "black",
         width: "80%",
         margin: "auto",
-        padding: "10px"
+        padding: "10px",
+        borderRadius: "5%"
     }
 
     const infoStyle = {
