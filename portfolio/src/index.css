@@ -79,7 +79,7 @@
 }
 
 .style {
-        padding: 10px; padding-left: 4vw;
+        padding: 10px;
         align-content: center;
         letter-spacing: .01em;
         display: inline-block;
@@ -131,5 +131,6 @@ a:focus{
 @media screen and (min-width: 625px){
     .style {
         max-width: 45%;
+        padding-left: 3vw;
     }
 }

@@ -1,13 +1,32 @@
 import React from "react";
+import flowarts from "./images/flowarts.png";
+
 
 function Interests(){
+  const interestStyles= {
+    position: "relative",
+    textAlign: "center"
+  }
 
+  const imageStyle={
+    maxWidth:"80%"
+  }
     return(
 
-    <div>
-        <h2>This is my interests page.</h2>
-        <h3>Thank you for joining us</h3>
-        <h4>This is a test</h4>
+    <div style={interestStyles}>
+       <div>
+             <h2>Juggling</h2>
+             <img style={imageStyle} src={flowarts}></img>
+       </div>
+       <div>
+             <h2>Snowboarding</h2>
+       </div>
+       <div>
+            <h2>Oldschool Runescape</h2>
+       </div>
+       <div>
+            <h2>Dancing</h2>
+       </div>
     </div>
     )
 }

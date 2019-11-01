@@ -20,11 +20,12 @@ function Projects(){
         size: "2em",
         overflowY: "auto",
         display: "block",
-        margin: "auto"
+        margin: "auto",
+        paddingLeft: "5vw"
     }
 
     const imageContainer = {
-        maxWidth: "80%",
+        width: "100%",
         maxHeight: "500px",
         float: "right",
         border: "1px black solid",
@@ -35,7 +36,8 @@ function Projects(){
         fontSize: "1.5em",
         color: "snow",
         letterSpacing: "1px",
-        textShadow: "-1px 0 black, 0 1px black, 0 0 black, 0 0 black"
+        textShadow: "-1px 0 black, 0 1px black, 0 0 black, 0 0 black",
+        textAlign: "center"
     }
 
     return(
