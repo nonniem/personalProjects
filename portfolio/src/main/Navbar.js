@@ -25,9 +25,6 @@ function Navbar(props){
                     <Link to="/" className="navbarLink">Bio</Link>
                     <Link to="/resume" className="navbarLink">Resume</Link>
                     <Link to="/education" className="navbarLink">Education</Link>
-                    <a style={{...divd, ...footer}} href="https://github.com/nonniem"><i className="fa fa-github" aria-hidden="false"></i></a>
-                    <a style={{...divd, ...footer}} href="https://www.linkedin.com/in/nonnie-martin-019847149/"><i className="fa fa-linkedin" aria-hidden="false"></i></a>
-                    <a style={{...divd, ...footer}} href="https://www.facebook.com/bigcheifmartin"><i className="fa fa-facebook" aria-hidden="false"></i></a>
                 </div>
             </div>
         </div>
