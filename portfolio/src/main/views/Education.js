@@ -29,7 +29,8 @@ export default function Education(){
         textAlign: "center",
         background: "rgba(255,255,255, 0.8)",
         margin: "10px",
-        borderRadius: "10%"
+        borderRadius: "10%",
+        border: "black 1px solid"
     }
 
     const vschoolImg = {
