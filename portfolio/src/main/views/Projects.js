@@ -44,29 +44,24 @@ function Projects(){
 
         <div style={styles}>
 
+        <div className="style">
+          <a style={hrefLink} href="http://agscbddispensary.com/">A&Gs CBD Dispensary</a>
+          <a href="http://agscbddispensary.com/"><img style={imageContainer} src={Agscbddispensary} alt=""/></a>
+        </div>
+
+        <div className="style">
+          <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
+          <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
+        </div>
+
             <div className="style">
               <a style={hrefLink} href="http://dpfguys.com/">DPF Guys</a>
               <a href="http://dpfguys.com/"><img style={imageContainer} src={Dpfguys} alt=""/></a>
             </div>
 
             <div className="style">
-              <a style={hrefLink} href="http://agscbddispensary.com/">A&Gs CBD Dispensary</a>
-              <a href="http://agscbddispensary.com/"><img style={imageContainer} src={Agscbddispensary} alt=""/></a>
-            </div>
-
-            <div className="style">
-              <a style={hrefLink} href="http://cjmartinchiropractic.com/">C.J. Martin Chiropractic</a>
-              <a href="http://cjmartinchiropractic.com/"><img style={imageContainer} src={Cjmchiro} alt=""/></a>
-            </div>
-
-            <div className="style">
               <a style={hrefLink} href="http://fantasydreamhomes.com/">Fantasy Dream Homes</a>
               <a href="http://fantasydreamhomes.com/"><img style={imageContainer} src={Fantasydreamhomes} alt=""/></a>
-            </div>
-
-            <div className="style">
-              <a style={hrefLink} href="http://rossvanhandel.insure/">Ross VanHandel Insurance</a>
-              <a href="http://rossvanhandel.insure/"><img style={imageContainer} src={Rossvanhandel} alt=""/></a>
             </div>
 
             <div className="style">
@@ -78,6 +73,13 @@ function Projects(){
                 <a style={hrefLink} href="http://nestwi.org/">N.E.S.T</a>
                 <a href="http://nestwi.org/"><img style={imageContainer} src={Nestwi} alt=""/></a>
             </div>
+
+            <div className="style">
+              <a style={hrefLink} href="http://rossvanhandel.insure/">Ross VanHandel Insurance</a>
+              <a href="http://rossvanhandel.insure/"><img style={imageContainer} src={Rossvanhandel} alt=""/></a>
+            </div>
+
+
 
             <div className="style">
                 <a style={hrefLink} href="https://chatterin.herokuapp.com">Chatter</a>
