@@ -12,7 +12,7 @@ function Contact(props){
         wordSpacing: "1px",
         // background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
-        opacity: ".65",
+        opacity: ".85",
         color: "snow",
         width: "80%",
         margin: "auto",
@@ -30,7 +30,7 @@ function Contact(props){
         maxWidth: "350px",
         // background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
-        opacity: ".65",
+        opacity: ".85",
         color: "snow",
         position: "relative",
         margin: "auto",
@@ -50,7 +50,7 @@ function Contact(props){
         textAlign: "center",
         background: "black",
         // background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
-        opacity: ".65",
+        opacity: ".85",
         // background: "linear-gradient(65deg, rgba(0,128,0,.1) 1%, rgba(0,128,0,.3) 5%, rgba(5,184,189,.7) 28%, rgba(116,166,236,.7) 92%, rgba(116,166,236,.1) 100%)",
         color: "snow",
         width: "90%",
@@ -60,8 +60,7 @@ function Contact(props){
         letterSpacing: "1.3px",
         wordSpacing: "1px",
         maxWidth: "666px",
-        borderRadius: "2%",
-        fontFamily: "'Lato', sans-serif"
+        borderRadius: "2%"
     }
 
     const indentd = {
@@ -74,7 +73,7 @@ function Contact(props){
         <div>
             <h2 style={titleStyle}>Personal Biography</h2>
             <div style={personalBio}>
-                <span style={indentd}>
+                <span style={indentd} className="bioParagraph">
 
                 Welcome to my portfolio - my name is Nonnie Martin,
                 and I'm a Full-Stack JavaScript Developer and

@@ -21,12 +21,12 @@ function Navbar(props){
     return(
         <div>
             <div>
-                <div className="nav">
+                <div className="nav" id="breathing-navbarIcons">
                     <Link to="/projects" className="navbarLink">Portfolio</Link>
                     <Link to="/" className="navbarLink">Bio</Link>
                     <Link to="/resume" className="navbarLink">Resume</Link>
                     <Link to="/education" className="navbarLink">Education</Link>
-                    <Link to="/interests" className="navbarLink">Interests</Link>
+
                     <a style={{...divd, ...footer}} href="https://github.com/nonniem"><i className="fa fa-github" aria-hidden="false"></i></a>
                       <a style={{...divd, ...footer}} href="https://www.linkedin.com/in/nonnie-martin-019847149/"><i className="fa fa-linkedin" aria-hidden="false"></i></a>
                     <a style={{...divd, ...footer}} href="https://www.facebook.com/bigcheifmartin"><i className="fa fa-facebook" aria-hidden="false"></i></a>

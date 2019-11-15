@@ -44,9 +44,7 @@ export default function Education(){
 
     const iconBar = {
         width: "100%",
-
         height: "10%",
-
     }
 
     const iconSpecs = {

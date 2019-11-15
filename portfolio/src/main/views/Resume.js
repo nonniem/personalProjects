@@ -13,7 +13,10 @@ export default function Resume(){
         width: "65%",
         display: "flex",
         flexDirection: "column",
-        alignItems: "center"
+        alignItems: "center",
+        border: "black solid 1px",
+        background: "black",
+        opacity: ".95"
     }
 
     const resumeDiv = {
@@ -31,7 +34,7 @@ export default function Resume(){
     return(
         <div style={resumeDiv}>
             <a href="https://docs.google.com/document/d/1ufqMJC3akQEYZ7W3wQowUsxaQFpfJDjF5OeJ__Cr1uM/edit?usp=sharing">
-                <img style={resumeImgStyle} src={ResumeImg} alt="resume"/>
+                <img style={resumeImgStyle} id="breathing-image" src={ResumeImg} alt="resume"/>
             </a>
         </div>
 
