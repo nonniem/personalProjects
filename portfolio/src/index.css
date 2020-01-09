@@ -11,26 +11,8 @@
     margin-top: 13px;
     padding: 15px;
     text-shadow:
-    1px 1px 0 #093289,
-    2.5px 1px 0 #093289,
-    -1px 1px 0 #9A2A31,
-    2px 1px 0 #9A2A31,
-    1px -1px 0 #D44B19,
-    -1px -1px 0 #FCB40B,
-    0px 1px 0 #9A2A31,
-    0px -1.5px 0 #9A2A31,
-    -1.5px 0px 0 #9A2A31,
-    1.5px 0px 0 #9A2A31,
-    .5px 1.5px 0 #07C5FF,
-    -.5px 1.5px 0 #EFF1F4,
-    .5px -1.5px 0 #FCB40B,
-    -.5px -1.5px 0 #EFF1F4,
-    1.5px .5px 0 #EFF1F4,
-    -1.5px .5px 0 #FCB40B,
-    1.5px -.5px 0 #EFF1F4,
-    2.5px -.5px 0 #07C5FF,
-    2.5px 2.5px 0 #07C5FF,
-    0px 0px 0 #07C5FF
+    -1px -1px 0 #093289,
+    1px 1px 0 #9A2A31
 }
 
 .footer{
@@ -91,9 +73,9 @@
     }
 
 .navbarLink{
-    color: black;
+    color: snow;
     font-size: 3vw;
-    font-family: 'Lobster', Georgia, Times, serif;
+    font-family: 'Baloo Bhai', cursive;
     text-decoration-style: solid white 1px;
 }
 
