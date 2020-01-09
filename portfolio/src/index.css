@@ -11,30 +11,26 @@
     margin-top: 13px;
     padding: 15px;
     text-shadow:
-    .5px .5px 0 #079CFD,
-    -.5px .5px 0 #079CFD,
-    .5px -.5px 0 #079CFD,
-    -.5px -.5px 0 #079CFD,
-    0px .5px 0 #079CFD,
-    0px -.5px 0 #079CFD,
-    -.5px 0px 0 #FE940E,
-    .5px 0px 0 #079CFD,
-    1px 1px 0 #079CFD,
-    -1px 1px 0 #079CFD,
-    1px -1px 0 #FE940E,
-    -1px -1px 0 #FE940E,
-    0px 1px 0 #FE940E,
-    0px -1.5px 0 #EFF1F4,
-    -1.5px 0px 0 #EFF1F4,
-    1.5px 0px 0 #EFF1F4,
-    .5px 1.5px 0 #EFF1F4,
+    1px 1px 0 #093289,
+    2.5px 1px 0 #093289,
+    -1px 1px 0 #9A2A31,
+    2px 1px 0 #9A2A31,
+    1px -1px 0 #D44B19,
+    -1px -1px 0 #FCB40B,
+    0px 1px 0 #9A2A31,
+    0px -1.5px 0 #9A2A31,
+    -1.5px 0px 0 #9A2A31,
+    1.5px 0px 0 #9A2A31,
+    .5px 1.5px 0 #07C5FF,
     -.5px 1.5px 0 #EFF1F4,
-    .5px -1.5px 0 #EFF1F4,
+    .5px -1.5px 0 #FCB40B,
     -.5px -1.5px 0 #EFF1F4,
     1.5px .5px 0 #EFF1F4,
-    -1.5px .5px 0 #EFF1F4,
+    -1.5px .5px 0 #FCB40B,
     1.5px -.5px 0 #EFF1F4,
-    -1.5px -.5px 0 #EFF1F4;
+    2.5px -.5px 0 #07C5FF,
+    2.5px 2.5px 0 #07C5FF,
+    0px 0px 0 #07C5FF
 }
 
 .footer{
@@ -99,6 +95,8 @@
     font-size: 3vw;
     font-family: 'Lobster', Georgia, Times, serif;
     text-decoration-style: solid white 1px;
+    background: linear-gradient(left to right, #FDFBFB, #EBEDEE 70%);
+
 }
 
 .bioParagraph {

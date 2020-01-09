@@ -19,8 +19,8 @@ function Contact(props){
         marginTop: "10px",
         marginBottom: "10px",
         borderRadius: "15%",
-        borderTop: "snow 1px solid",
-        borderBottom: "snow 1px solid",
+        borderTop: "#9A2A31 1px solid",
+        borderBottom: "#9A2A31 1px solid",
         maxWidth: "600px",
         fontFamily: "'Lobster', Georgia, Times, serif"
     }
@@ -55,8 +55,8 @@ function Contact(props){
         color: "rgba(220, 220, 220, 1)",
         width: "90%",
         margin: "auto",
-        borderRight: "solid white 1px",
-        borderLeft: "solid white 1px",
+        borderRight: "solid #093289 1px",
+        borderLeft: "solid #D44B19 1px",
         letterSpacing: "1.3px",
         wordSpacing: "1px",
         maxWidth: "666px",
