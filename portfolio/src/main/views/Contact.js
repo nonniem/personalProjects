@@ -25,6 +25,7 @@ function Contact(props){
         fontFamily: "'Lobster', Georgia, Times, serif"
     }
 
+
     const contactMethods = {
         // height: "50px",
         maxWidth: "350px",
@@ -46,7 +47,7 @@ function Contact(props){
         paddingTop: "10px",
         paddingLeft: "40px",
         paddingRight: "40px",
-        fontSize: "1.3em",
+        fontSize: "1.6em",
         textAlign: "center",
         background: "black",
         // background: "url('https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif')",
@@ -77,9 +78,7 @@ function Contact(props){
 
                 Welcome to my portfolio - my name is Nonnie Martin,
                 and I'm a Full-Stack JavaScript Developer and
-                 E-commerce Management Specialist. I graduated
-                  from V-Schools Coding Academy which taught me
-                  the frontier of new development technologies.
+                 E-commerce Management Specialist.
                   I want to build you a faster and more efficient
                    website for your team or your business.
                    My skills include a range from building

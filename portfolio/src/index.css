@@ -1,5 +1,6 @@
 * {
-    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    /* font-family: 'Cabin', Helvetica, Arial, sans-serif; */
+    font-family: 'Pacifico', cursive;
 }
 
 .nav {
@@ -73,14 +74,14 @@
     }
 
 .navbarLink{
-    color: snow;
+color: rgba(220, 220, 220, 1);
     font-size: 3vw;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Pacifico', cursive;
     text-decoration-style: solid white 1px;
 }
 
 .bioParagraph {
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
 }
 
 .navbarLink:hover{
@@ -88,7 +89,7 @@
 }
 
 .navbarLink:active{
-    color: white;
+    color: rgba(220, 220, 220, 1);
 }
 
 .fa{
@@ -100,7 +101,7 @@
 }
 
 .fa:hover{
-    color: aliceblue;
+    color: rgba(220, 220, 220, 1);
    -moz-transform: rotate(360deg);
    -webkit-transform: rotate(360deg);
    -o-transform: rotate(360deg);
@@ -109,7 +110,7 @@
 }
 
 a:focus{
-    color: snow;
+    color: rgba(220, 220, 220, 1);
 }
 
 @media screen and (min-width: 625px){
